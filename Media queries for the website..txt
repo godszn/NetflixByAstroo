@@ -1,0 +1,3 @@
+from 399 t0 499
+from 550 to 949
+from 949 and above

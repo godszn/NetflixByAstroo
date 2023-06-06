@@ -1,0 +1,986 @@
+body {
+    margin: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+    padding: 0;
+    overflow-x: hidden;
+    }
+body a{
+    color: white;
+}
+.Nflix {
+    background-image: url("Nflix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 697px;
+    padding: 0;
+    margin: 0;
+}
+.nav-wrapper {
+    justify-content:space-between ;
+}
+.left-side {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.sign.btn {
+     background-color:#e50914 ;
+     border-radius: 12px;
+     margin: 17px;
+     font-family:SST,helvetica,arial,sans-serif;
+}
+
+.sign.btn:hover {
+   background-color: red;
+   color: black !important;
+}
+
+.sign.btn > a {
+    color: white !important;
+    font-size: large !important;
+    font-weight: 700  !important;
+}
+
+.Main-text {
+    letter-spacing: 1.5px;
+    font-size: 325rem;
+}
+.h4-wrapper {
+    text-align: center;
+}
+.input-lge {
+    width:450px; height: 60px; padding: 2px;
+}
+.input.border {
+    border-width: 1px solid #8c8c8c;
+}
+.getstarted.btn {
+    background-color: #e50914;
+    border-radius:1px ;
+    padding: 10px;
+    width: 200px;
+}
+
+.getstarted.btn:hover {
+    background-color: red;
+}
+
+.getstarted2.btn:hover {
+    background-color: red;
+    color: black;
+}
+
+.getstarted.btn a {
+    color:white; 
+    font-size: x-large;
+    text-decoration: none;
+}
+.Sub-text {
+    color:white;
+    font-weight: bold; 
+}
+.a-- {
+    color:white; 
+    font-size:x-large ; 
+    text-decoration: none;
+}
+
+.a--:hover{
+ color:#fff !important;
+cursor: default;
+}
+
+.footer-links {
+    margin: 0;
+    padding: 0;
+     display: flex;
+    flex-wrap: wrap;
+}
+.footer-list {
+    list-style:none;
+    padding: 5px;
+    margin-bottom: 10px;
+    flex: 1  0 20%;
+}
+.footer-list a {
+    font-size: small;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 399px) {
+   .Nflix-Lg {
+    width: 100px;
+    height: 40px;
+   }
+   .left-side {
+    padding-top: 19px;
+    padding-left: 15px;
+   }
+   .sign.btn{
+    border-radius: 5px;
+    padding: .3rem;
+    margin-top: 18px;
+   }
+   .sign.btn a {
+    font-weight: 600 !important;
+    font-size:1rem !important;
+    letter-spacing: .5px;
+   }
+   .Nflix {
+    background-image: url("Nflix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 557px;
+    padding: 0;
+    margin: 0;
+   }
+   .Main-text {
+    letter-spacing: .5px;
+    padding: 10px;
+    margin-top: 90px;
+  }
+  .h1- {
+    font-size: 24px;
+  }
+ .h4- {
+    font-size: 14px;
+    padding-top: 5px;
+    font-weight: 600;
+ } 
+ .h5- {
+    padding: 15px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding-left: 4px;
+ }
+ .h5-- {
+    font-size: 16px;
+    padding:10px;
+    text-align: center;
+ }
+ .input-btn-wrapper {
+    padding-left: 35px;
+    padding: 11px;
+    padding-left: 15px;
+    justify-content: center;
+ }
+ .input-lge {
+      height: 40px;
+      padding:20px ;
+      width: 100%;
+ }
+ .getstarted.btn {
+    display: none;
+ }
+ .getstarted2.btn {
+    height: 40px;
+    background-color: #e50914;
+    border-radius: 10px;
+    width: 130px;
+ }
+ .getstarted2.btn a {
+    color:white; 
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: .5px;
+    font-family:SST,helvetica,arial,sans-serif;
+ }
+ .Sub-text {
+    color:white;
+    font-weight: bold; 
+    padding: 20px;
+    padding-top: 55px;
+    padding-left: 28px;
+    width: 100%;
+    justify-content: center;
+    display:flex;
+    text-align: center;
+ }
+ .acontent {
+      padding: 5px;
+      padding-bottom: 25px;
+ }
+ .a-con {
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+ .a-- {
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px;
+    color: white;
+ }
+ .dev1 {
+   display: flex;
+   justify-content: center;
+
+ }
+ .dev1-img {
+     height: 200px;
+     width: 100%;
+ }
+ .dev2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+ }
+ .dev2-img {
+    height: 250px;
+    width: 100%;
+}
+.dev3 {
+    display: flex;
+    justify-content: center;
+}
+.dev3-img {
+    height: 250px;
+    width: 100%;
+}
+.Sub-text2 {
+    font-weight: bold; 
+    padding-top: 55px;
+    width: 100%;
+    justify-content: center;
+    display:flex;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.faq-lists {
+    border-bottom: 8px solid black;
+}
+.listbtn {
+    height: 51px;
+    font-weight: 500; letter-spacing: .2px; text-align: left;
+    width: 100%;
+}
+.listbtn a {
+    color: white;
+    padding-left: 15px;
+}
+.input-lge2 {
+    height: 15px;
+    padding:18px;
+    width: 100%;
+}
+.getstart2-wrapper {
+      display: flex;
+      justify-content: center;
+}
+.footer-list {
+    list-style:none;
+    padding-right: 15px;
+    padding: 0;
+    margin-bottom: 10px;
+    flex: 1  0 45%;
+}
+}
+@media (min-width: 399px) and (max-width:499px) {
+    .Nflix-Lg {
+        width: 100px;
+        height: 40px;
+       }
+       .left-side {
+        padding-top: 19px;
+        padding-left: 15px;
+       }
+       .sign.btn{
+        border-radius: 5px;
+        padding:5px;
+        margin-top: 12px;
+       }
+       .sign.btn a {
+        font-weight: 100;
+        font-size: 14px;
+        letter-spacing: .5px;
+       }
+       .Nflix {
+        background-image: url("Nflix.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 557px;
+        padding: 0;
+        margin: 0;
+       }
+       .Main-text {
+        letter-spacing: .5px;
+        padding: 10px;
+        margin-top: 90px;
+      }
+      .h1- {
+        font-size: 28px;
+      }
+     .h4- {
+        font-size: 18px;
+        padding-top: 5px;
+        font-weight: 600;
+     } 
+     .h5- {
+        padding: 15px;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        padding-left: 4px;
+     }
+     .h5-- {
+        font-size: 18px;
+        padding: 10px;;
+        text-align: center;
+     }
+     .input-btn-wrapper {
+        padding-left: 35px;
+        padding: 11px;
+        padding-left: 15px;
+        justify-content: center;
+     }
+     .input-lge {
+          height: 40px;
+          padding:20px ;
+          width: 100%;
+     }
+     .getstarted.btn {
+        display: none;
+     }
+     .getstarted2.btn {
+        height: 40px;
+        background-color: #e50914;
+        border-radius: 10px;
+        width: 130px;
+     }
+     .getstarted2.btn a {
+        color:white; 
+        font-size: 15px;
+        text-decoration: none;
+        letter-spacing: .5px;
+        font-family:SST,helvetica,arial,sans-serif;
+     }
+     .Sub-text {
+        color:white;
+        font-weight: bold; 
+        padding: 20px;
+        padding-top: 55px;
+        padding-left: 28px;
+        width: 100%;
+        justify-content: center;
+        display:flex;
+        text-align: center;
+     }
+     .acontent {
+          padding: 5px;
+          padding-bottom: 25px;
+     }
+     .a-con {
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+    }
+     .a-- {
+        text-decoration: none;
+        font-size: 17px;
+        text-align: center;
+        font-weight: 500;
+        padding: 30px;
+        color: white;
+        padding-top: 5px;
+     }
+     .dev1 {
+       display: flex;
+       justify-content: center;
+    
+     }
+     .dev1-img {
+         height: 265px;
+         width: 100%;
+     }
+     .dev2 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 36px;
+     }
+     .dev2-img {
+        height: 260px;
+        width: 100%;
+    }
+    .dev3 {
+        display: flex;
+        justify-content: center;
+    }
+    .dev3-img {
+        height: 265px;
+        width: 100%;
+    }
+    .Sub-text2 {
+        font-weight: bold; 
+        padding-top: 55px;
+        width: 100%;
+        justify-content: center;
+        display:flex;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .faq-lists {
+        border-bottom: 8px solid black;
+    }
+    .listbtn {
+        height: 51px;
+        font-weight: 500; letter-spacing: .2px; text-align: left;
+        width: 100%;
+    }
+    .listbtn a {
+        color: white;
+        padding-left: 15px;
+    }
+    .input-lge2 {
+        height: 15px;
+        padding:18px;
+        width: 100%;
+    }
+    .getstart2-wrapper {
+          display: flex;
+          justify-content: center;
+    }
+.footer-list {
+        list-style:none;
+        padding-right: 15px;
+        padding: 0;
+        margin-bottom: 10px;
+        flex: 1  0 45%;
+}
+}
+@media (min-width: 500px) and (max-width:949px) {
+    .Nflix-Lg {
+        width: 150px;
+        height: 55px;
+       }
+       .left-side {
+        padding-top: 19px;
+        padding-left: 15px;
+       }
+       .sign.btn{
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+       }
+       .sign.btn a {
+        font-weight: 100;
+        font-size: 14px;
+        letter-spacing: .5px;
+       }
+       .Nflix {
+        background-image: url("Nflix.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 557px;
+        padding: 0;
+        margin: 0;
+       }
+       .Main-text {
+        letter-spacing: .5px;
+        padding: 10px;
+        margin-top: 90px;
+      }
+      .h1- {
+        font-size: 45px;
+      }
+     .h4- {
+        font-size: 18px;
+        padding-top: 5px;
+        font-weight: 600;
+     } 
+     .h5- {
+        padding: 15px;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        padding-left: 4px;
+     }
+     .h5-- {
+        font-size: 20px;
+        padding: 10px;;
+        text-align: center;
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-bottom: 0;
+     }
+     .input-btn-wrapper {
+        padding-left: 35px;
+        padding: 11px;
+        padding-left: 15px;
+        justify-content: center;
+     }
+     .input-lge {
+          height: 40px;
+          padding:20px ;
+     }
+     .getstarted.btn {
+        display: none;
+     }
+     .getstarted2.btn {
+        height: 40px;
+        background-color: #e50914;
+        border-radius: 10px;
+        width: 130px;
+     }
+     .getstarted2.btn a {
+        color:white; 
+        font-size: 15px;
+        text-decoration: none;
+        letter-spacing: .5px;
+        font-family:SST,helvetica,arial,sans-serif;
+     }
+     .Sub-text {
+        color:white;
+        font-weight: bold; 
+        padding: 20px;
+        padding-top: 55px;
+        padding-left: 28px;
+        width: 100%;
+        justify-content: center;
+        display:flex;
+        text-align: center;
+     }
+     .acontent {
+        padding: 5px;
+     }
+    .a-con {
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+    }
+     .a-- {
+        text-decoration: none;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+        padding-top: 5px;
+     }
+     .dev1 {
+       display: flex;
+       justify-content: center;
+    
+     }
+     .dev1-img {
+         height: 360px;
+     }
+     .dev2 {
+        display: flex;
+        justify-content: center;
+        padding-bottom:30px;
+     }
+     .dev2-img {
+        height: 360px;
+    }
+    .dev3 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .dev3-img {
+        height: 365px;
+    }
+    .Sub-text2 {
+        font-weight: bold; 
+        padding-top: 55px;
+        width: 100%;
+        justify-content: center;
+        display:flex;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .faq-lists {
+        border-bottom: 8px solid black;
+        display: flex;
+        justify-content: center;
+    }
+    .listbtn {
+        padding: 15px;
+        font-weight: 500;
+        letter-spacing: .2px; 
+        text-align: left;
+        width: 600px;
+    }
+    .listbtn a {
+        color: white;
+        padding-left: 15px;
+    }
+    .input-lge2 {
+        height: 55px;
+        padding:18px;
+        width:400px;
+    }
+    .getstart2-wrapper {
+          display: flex;
+          justify-content: center;
+    }
+}
+@media (min-width: 950px) and (max-width:1439px) {
+    .Nflix-Lg {
+        width: 150px;
+        height: 55px;
+       }
+       .left-side {
+        padding-top: 19px;
+        padding-left: 15px;
+       }
+       .sign.btn{
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+       }
+       .sign.btn a {
+        font-weight: 100;
+        font-size: 14px;
+        letter-spacing: .5px;
+       }
+       .Nflix {
+        background-image: url("Nflix.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 557px;
+        padding: 0;
+        margin: 0;
+       }
+       .Main-text {
+        letter-spacing: .5px;
+        padding: 10px;
+        margin-top: 90px;
+      }
+      .h1- {
+        font-size: 45px;
+      }
+     .h4- {
+        font-size: 18px;
+        padding-top: 5px;
+        font-weight: 600;
+     } 
+     .h5- {
+        padding: 15px;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        padding-left: 4px;
+     }
+     .h5-- {
+        font-size: 20px;
+        padding: 10px;;
+        text-align: center;
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-bottom: 0;
+     }
+     .input-btn-wrapper {
+        padding-left: 35px;
+        padding: 11px;
+        padding-left: 15px;
+        justify-content: center;
+     }
+     .input-lge {
+          height: 40px;
+          padding:20px ;
+     }
+     .getstarted.btn {
+        display: none;
+     }
+     .getstarted2.btn {
+        height: 40px;
+        background-color: #e50914;
+        border-radius: 10px;
+        width: 130px;
+     }
+     .getstarted2.btn a {
+        color:white; 
+        font-size: 15px;
+        text-decoration: none;
+        letter-spacing: .5px;
+        font-family:SST,helvetica,arial,sans-serif;
+     }
+     .Sub-text {
+        color:white;
+        font-weight: bold; 
+        padding: 24px;
+        padding-top: 85px;
+        width: 100%;
+        padding-bottom: 15px;
+     }
+     .content1 {
+        justify-content: center; 
+        display: flex;
+    }
+    .content2 {
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-between;
+    }
+    .content3 {
+        display: flex;
+    }
+    .content4 {
+        flex-direction: row-reverse;
+        display: flex;
+    }
+     .acontent {
+         
+     }
+    .a-con {
+        padding-left:25px ;
+        padding: 30px;
+        padding-top: 0;
+    }
+     .a--{
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 500;
+        color: white;
+        padding-top: 5px;
+     }
+     .dev1 {
+       display: flex;
+       justify-content: center;
+    
+     }
+     .dev1-img {
+         height: 360px;
+     }
+     .dev2 {
+        display: flex;
+        justify-content: center;
+        padding-bottom:30px;
+     }
+     .dev2-img {
+        height: 360px;
+    }
+    .dev3 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .dev3-img {
+        height: 365px;
+    }
+    .Sub-text2 {
+        font-weight: bold; 
+        padding-top: 55px;
+        width: 100%;
+        justify-content: center;
+        display:flex;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .faq-lists {
+        border-bottom: 8px solid black;
+        display: flex;
+        justify-content: center;
+    }
+    .listbtn {
+        padding: 15px;
+        font-weight: 500;
+        letter-spacing: .2px; 
+        text-align: left;
+        width: 600px;
+    }
+    .listbtn a {
+        color: white;
+        padding-left: 15px;
+    }
+    .input-lge2 {
+        height: 55px;
+        padding:18px;
+        width:400px;
+    }
+    .getstart2-wrapper {
+          display: flex;
+          justify-content: center;
+    }
+
+}@media (min-width: 1439px) and (max-width:3000px) {
+    .Nflix-Lg {
+        width: 150px;
+        height: 55px;
+       }
+       .left-side {
+        padding-top: 19px;
+        padding-left: 15px;
+       }
+       .sign.btn{
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+       }
+       .sign.btn a {
+        font-weight: 100;
+        font-size: 14px;
+        letter-spacing: .5px;
+       }
+       .Nflix {
+        background-image: url("Nflix.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 557px;
+        padding: 0;
+        margin: 0;
+       }
+       .Main-text {
+        letter-spacing: .5px;
+        padding: 10px;
+        margin-top: 90px;
+      }
+      .h1- {
+        font-size: 45px;
+      }
+     .h4- {
+        font-size: 18px;
+        padding-top: 5px;
+        font-weight: 600;
+     } 
+     .h5- {
+        padding: 15px;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        padding-left: 4px;
+     }
+     .h5-- {
+        font-size: 20px;
+        padding: 10px;;
+        text-align: center;
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-bottom: 0;
+     }
+     .input-btn-wrapper {
+        padding-left: 35px;
+        padding: 11px;
+        padding-left: 15px;
+        justify-content: center;
+     }
+     .input-lge {
+          height: 40px;
+          padding:20px ;
+     }
+     .getstarted.btn {
+        display: none;
+     }
+     .getstarted2.btn {
+        height: 40px;
+        background-color: #e50914;
+        border-radius: 10px;
+        width: 130px;
+     }
+     .getstarted2.btn a {
+        color:white; 
+        font-size: 15px;
+        text-decoration: none;
+        letter-spacing: .5px;
+        font-family:SST,helvetica,arial,sans-serif;
+     }
+     .Sub-text {
+        color:white;
+        font-weight: bold; 
+        padding: 24px;
+        padding-top: 85px;
+        width: 100%;
+        padding-bottom: 15px;
+     }
+     .content1 {
+        justify-content: center; 
+        display: flex;
+    }
+    .content2 {
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .content3 {
+        display: flex;
+    }
+    .content4 {
+        flex-direction: row-reverse;
+        display: flex;
+        padding: 50px;
+    }
+     .acontent {
+         
+     }
+    .a-con {
+        padding-left:25px ;
+        padding: 30px;
+        padding-top: 0;
+    }
+     .a--{
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 500;
+        color: white;
+        padding-top: 5px;
+     }
+     .dev1 {
+       display: flex;
+       justify-content: center;
+    
+     }
+     .dev1-img {
+         height: 360px;
+     }
+     .dev2 {
+        display: flex;
+        justify-content: center;
+        padding-bottom:30px;
+     }
+     .dev2-img {
+        height: 360px;
+    }
+    .dev3 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .dev3-img {
+        height: 365px;
+    }
+    .Sub-text2 {
+        font-weight: bold; 
+        padding-top: 55px;
+        width: 100%;
+        justify-content: center;
+        display:flex;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .faq-lists {
+        border-bottom: 8px solid black;
+        display: flex;
+        justify-content: center;
+    }
+    .listbtn {
+        padding: 15px;
+        font-weight: 500;
+        letter-spacing: .2px; 
+        text-align: left;
+        width: 600px;
+    }
+    .listbtn a {
+        color: white;
+        padding-left: 15px;
+    }
+    .input-lge2 {
+        height: 55px;
+        padding:18px;
+        width:400px;
+    }
+    .getstart2-wrapper {
+          display: flex;
+          justify-content: center;
+    }
+
+}
